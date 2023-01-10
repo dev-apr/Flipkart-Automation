@@ -17,3 +17,6 @@ It contains 11 test files which contains 20 testcases.
 - For headless mode, change the mode to headless in config.properties file.
 
 Github link - https://github.com/dev-apr/Flipkart-Automation
+
+- A word named "Screenshots of Github and Jenkins integration.docx" contains screenshots of github and jenkins integration.
+
