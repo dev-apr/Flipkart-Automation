@@ -15,3 +15,5 @@ It contains 11 test files which contains 20 testcases.
 - Extract the contents
 - Open or double-click the batch file(Run.bat)
 - For headless mode, change the mode to headless in config.properties file.
+
+Github link - https://github.com/dev-apr/Flipkart-Automation
