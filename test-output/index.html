@@ -1,0 +1,1062 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Exit_Test" class="navigator-link">
+              <span class="suite-name border-failed">Exit Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Exit_Test" class="navigator-link ">
+                    <span>C:\Users\devenderyadav01\eclipse-workspace\ExitTest\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Exit_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Exit_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Exit_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Exit_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Exit_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Exit_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">19 methods, 2 failed,   17 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Exit_Test" class="hide-methods failed suite-Exit_Test"> (hide)</a> <!-- hide-methods failed suite-Exit_Test -->
+                      <a href="#" panel-name="suite-Exit_Test" class="show-methods failed suite-Exit_Test"> (show)</a> <!-- show-methods failed suite-Exit_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Exit_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.CareersTest" class="method navigator-link" hash-for-method="candidateLogin">candidateLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.TopOffersTest" class="method navigator-link" hash-for-method="viewOffers">viewOffers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Exit_Test -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Exit_Test" class="hide-methods passed suite-Exit_Test"> (hide)</a> <!-- hide-methods passed suite-Exit_Test -->
+                      <a href="#" panel-name="suite-Exit_Test" class="show-methods passed suite-Exit_Test"> (show)</a> <!-- show-methods passed suite-Exit_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-Exit_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.AboutUsTest" class="method navigator-link" hash-for-method="aboutUs">aboutUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.BuyProductTest" class="method navigator-link" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.DownloadAppTest" class="method navigator-link" hash-for-method="appStoreDownload">appStoreDownload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.SellerTest" class="method navigator-link" hash-for-method="becomeSeller">becomeSeller</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.BuyProductTest" class="method navigator-link" hash-for-method="buyProduct">buyProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.FlipkartPlusTest" class="method navigator-link" hash-for-method="coinBalance">coinBalance</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.CreateAccountTest" class="method navigator-link" hash-for-method="createAccount">createAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.LoginTest" class="method navigator-link" hash-for-method="invalidLogin">invalidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.CartTest" class="method navigator-link" hash-for-method="placeOrder">placeOrder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.DownloadAppTest" class="method navigator-link" hash-for-method="playStoreDownload">playStoreDownload</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.CartTest" class="method navigator-link" hash-for-method="removeFromCart">removeFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.SearchProductTest" class="method navigator-link" hash-for-method="searchItem">searchItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.SellerTest" class="method navigator-link" hash-for-method="sellerLogin">sellerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.CartTest" class="method navigator-link" hash-for-method="viewCart">viewCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.FlipkartPlusTest" class="method navigator-link" hash-for-method="viewClaimedRewards">viewClaimedRewards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.FlipkartPlusTest" class="method navigator-link" hash-for-method="viewExclusiveOffers">viewExclusiveOffers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Exit_Test" title="ExitTest.Selenium.TestCases.FlipkartPlusTest" class="method navigator-link" hash-for-method="viewRewards">viewRewards</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Exit_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Exit_Test" class="panel Exit_Test">
+          <div class="suite-Exit_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.TopOffersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewOffers">
+                  </a> <!-- viewOffers -->
+                  <span class="method-name">viewOffers</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain &quot;Content&quot;. Current title: &quot;Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!&quot; (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;IN-PG02NJPN&apos;, ip: &apos;192.168.101.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DEVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62143/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcee86f3a852a4a51b870eec9047de8
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at ExitTest.Selenium.Pages.TopOffersPage.viewOffers(TopOffersPage.java:52)
+	at ExitTest.Selenium.TestCases.TopOffersTest.viewOffers(TopOffersTest.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-failed -->
+          <div class="suite-Exit_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.CareersTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="candidateLogin">
+                  </a> <!-- candidateLogin -->
+                  <span class="method-name">candidateLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator &apos;By.xpath: //span[contains(text(),&apos;Sorry! Looks like you typed it wrong. Please try a&apos;)]&apos; (tried for 30 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at ExitTest.Selenium.Pages.CareersPage.candidateLogin(CareersPage.java:78)
+	at ExitTest.Selenium.TestCases.CareersTest.candidateLogin(CareersTest.java:22)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//span[contains(text(),&apos;Sorry! Looks like you typed it wrong. Please try a&apos;)]&quot;}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;IN-PG02NJPN&apos;, ip: &apos;192.168.101.4&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fcee86f3a852a4a51b870eec9047de8, findElement {using=xpath, value=//span[contains(text(),&apos;Sorry! Looks like you typed it wrong. Please try a&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DEVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62143/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcee86f3a852a4a51b870eec9047de8
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+	at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 30 more
+... Removed 30 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-failed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchItem">
+                  </a> <!-- searchItem -->
+                  <span class="method-name">searchItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.BuyProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="buyProduct">
+                  </a> <!-- buyProduct -->
+                  <span class="method-name">buyProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLogin">
+                  </a> <!-- invalidLogin -->
+                  <span class="method-name">invalidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.CartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="placeOrder">
+                  </a> <!-- placeOrder -->
+                  <span class="method-name">placeOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeFromCart">
+                  </a> <!-- removeFromCart -->
+                  <span class="method-name">removeFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewCart">
+                  </a> <!-- viewCart -->
+                  <span class="method-name">viewCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.FlipkartPlusTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="coinBalance">
+                  </a> <!-- coinBalance -->
+                  <span class="method-name">coinBalance</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewClaimedRewards">
+                  </a> <!-- viewClaimedRewards -->
+                  <span class="method-name">viewClaimedRewards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewExclusiveOffers">
+                  </a> <!-- viewExclusiveOffers -->
+                  <span class="method-name">viewExclusiveOffers</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="viewRewards">
+                  </a> <!-- viewRewards -->
+                  <span class="method-name">viewRewards</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.AboutUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="aboutUs">
+                  </a> <!-- aboutUs -->
+                  <span class="method-name">aboutUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.DownloadAppTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="appStoreDownload">
+                  </a> <!-- appStoreDownload -->
+                  <span class="method-name">appStoreDownload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playStoreDownload">
+                  </a> <!-- playStoreDownload -->
+                  <span class="method-name">playStoreDownload</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.SellerTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="becomeSeller">
+                  </a> <!-- becomeSeller -->
+                  <span class="method-name">becomeSeller</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sellerLogin">
+                  </a> <!-- sellerLogin -->
+                  <span class="method-name">sellerLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+          <div class="suite-Exit_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">ExitTest.Selenium.TestCases.CreateAccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createAccount">
+                  </a> <!-- createAccount -->
+                  <span class="method-name">createAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Exit_Test-class-passed -->
+        </div> <!-- panel Exit_Test -->
+        <div panel-name="test-xml-Exit_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\devenderyadav01\eclipse-workspace\ExitTest\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Exit Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;ExitTest.Selenium.Utils.MyListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.SellerTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.CreateAccountTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.FlipkartPlusTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.SearchProductTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.BuyProductTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.CartTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.AboutUsTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.DownloadAppTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.CareersTest&quot;/&gt;
+      &lt;class name=&quot;ExitTest.Selenium.TestCases.TopOffersTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Exit Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Exit_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Exit Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (11 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Exit_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Exit Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Exit_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Exit Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Exit_Test');
+function tableData_Exit_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(19);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'candidateLogin')
+data.setCell(0, 2, 'ExitTest.Selenium.TestCases.CareersTest')
+data.setCell(0, 3, 68770);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'viewOffers')
+data.setCell(1, 2, 'ExitTest.Selenium.TestCases.TopOffersTest')
+data.setCell(1, 3, 60958);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'appStoreDownload')
+data.setCell(2, 2, 'ExitTest.Selenium.TestCases.DownloadAppTest')
+data.setCell(2, 3, 41737);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sellerLogin')
+data.setCell(3, 2, 'ExitTest.Selenium.TestCases.SellerTest')
+data.setCell(3, 3, 39473);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'playStoreDownload')
+data.setCell(4, 2, 'ExitTest.Selenium.TestCases.DownloadAppTest')
+data.setCell(4, 3, 37347);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'buyProduct')
+data.setCell(5, 2, 'ExitTest.Selenium.TestCases.BuyProductTest')
+data.setCell(5, 3, 37152);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'placeOrder')
+data.setCell(6, 2, 'ExitTest.Selenium.TestCases.CartTest')
+data.setCell(6, 3, 35472);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'coinBalance')
+data.setCell(7, 2, 'ExitTest.Selenium.TestCases.FlipkartPlusTest')
+data.setCell(7, 3, 33301);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'removeFromCart')
+data.setCell(8, 2, 'ExitTest.Selenium.TestCases.CartTest')
+data.setCell(8, 3, 33237);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'searchItem')
+data.setCell(9, 2, 'ExitTest.Selenium.TestCases.SearchProductTest')
+data.setCell(9, 3, 32609);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'aboutUs')
+data.setCell(10, 2, 'ExitTest.Selenium.TestCases.AboutUsTest')
+data.setCell(10, 3, 32123);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'viewCart')
+data.setCell(11, 2, 'ExitTest.Selenium.TestCases.CartTest')
+data.setCell(11, 3, 31539);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'becomeSeller')
+data.setCell(12, 2, 'ExitTest.Selenium.TestCases.SellerTest')
+data.setCell(12, 3, 30917);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'viewClaimedRewards')
+data.setCell(13, 2, 'ExitTest.Selenium.TestCases.FlipkartPlusTest')
+data.setCell(13, 3, 5278);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'viewExclusiveOffers')
+data.setCell(14, 2, 'ExitTest.Selenium.TestCases.FlipkartPlusTest')
+data.setCell(14, 3, 2964);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'viewRewards')
+data.setCell(15, 2, 'ExitTest.Selenium.TestCases.FlipkartPlusTest')
+data.setCell(15, 3, 2788);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'addToCart')
+data.setCell(16, 2, 'ExitTest.Selenium.TestCases.BuyProductTest')
+data.setCell(16, 3, 2787);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'createAccount')
+data.setCell(17, 2, 'ExitTest.Selenium.TestCases.CreateAccountTest')
+data.setCell(17, 3, 2181);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'invalidLogin')
+data.setCell(18, 2, 'ExitTest.Selenium.TestCases.LoginTest')
+data.setCell(18, 3, 1058);
+window.suiteTableData['Exit_Test']= { tableData: data, tableDiv: 'times-div-Exit_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 8 minutes</span>
+              <div id="times-div-Exit_Test">
+              </div> <!-- times-div-Exit_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Exit_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Exit Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Exit_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">31 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.SearchProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.BuyProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.TopOffersTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">validLogin</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.CartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.CareersTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.FlipkartPlusTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.AboutUsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.DownloadAppTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.SellerTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">ExitTest.Selenium.TestCases.CreateAccountTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">initializeDriver</span>
+                <br/>
+                <span class="ignored-method-name">openBrowser</span>
+                <br/>
+                <span class="ignored-method-name">quitBrowser</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Exit_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">initializeDriver</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-test before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">7 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.LoginTest.invalidLogin() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">2541 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">invalidLogin</span>
+                <span class="method-start">48149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:1, instance:ExitTes...)</span>
+                <span class="method-start">49211 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.SellerTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.SellerTest.becomeSeller())</span>
+                <span class="method-start">49401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">becomeSeller</span>
+                <span class="method-start">51336 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=becomeSeller status=SUCCESS method=SellerTest.becomeSeller()[pri:0, instance:ExitTe...)</span>
+                <span class="method-start">82254 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.SellerTest.sellerLogin())</span>
+                <span class="method-start">82284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">sellerLogin</span>
+                <span class="method-start">84269 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=sellerLogin status=SUCCESS method=SellerTest.sellerLogin()[pri:1, instance:ExitTest...)</span>
+                <span class="method-start">123743 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.CreateAccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.CreateAccountTest.createAccount())</span>
+                <span class="method-start">123770 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createAccount</span>
+                <span class="method-start">125641 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=createAccount status=SUCCESS method=CreateAccountTest.createAccount()[pri:0, instan...)</span>
+                <span class="method-start">127822 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.FlipkartPlusTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.FlipkartPlusTest.coinBalance())</span>
+                <span class="method-start">127845 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">coinBalance</span>
+                <span class="method-start">129918 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=coinBalance status=SUCCESS method=FlipkartPlusTest.coinBalance()[pri:0, instance:Ex...)</span>
+                <span class="method-start">163221 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.FlipkartPlusTest.viewRewards())</span>
+                <span class="method-start">163243 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewRewards</span>
+                <span class="method-start">164846 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=viewRewards status=SUCCESS method=FlipkartPlusTest.viewRewards()[pri:1, instance:Ex...)</span>
+                <span class="method-start">167635 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.FlipkartPlusTest.viewClaimedRewards())</span>
+                <span class="method-start">167664 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewClaimedRewards</span>
+                <span class="method-start">169326 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=viewClaimedRewards status=SUCCESS method=FlipkartPlusTest.viewClaimedRewards()[pri:...)</span>
+                <span class="method-start">174605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.FlipkartPlusTest.viewExclusiveOffers())</span>
+                <span class="method-start">174624 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewExclusiveOffers</span>
+                <span class="method-start">175647 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=viewExclusiveOffers status=SUCCESS method=FlipkartPlusTest.viewExclusiveOffers()[pr...)</span>
+                <span class="method-start">178613 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.SearchProductTest.searchItem())</span>
+                <span class="method-start">178637 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">searchItem</span>
+                <span class="method-start">179680 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=searchItem status=SUCCESS method=SearchProductTest.searchItem()[pri:0, instance:Exi...)</span>
+                <span class="method-start">212290 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.BuyProductTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.BuyProductTest.buyProduct())</span>
+                <span class="method-start">212306 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">buyProduct</span>
+                <span class="method-start">214221 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=buyProduct status=SUCCESS method=BuyProductTest.buyProduct()[pri:0, instance:ExitTe...)</span>
+                <span class="method-start">251373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.BuyProductTest.addToCart())</span>
+                <span class="method-start">251390 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">252516 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=addToCart status=SUCCESS method=BuyProductTest.addToCart()[pri:1, instance:ExitTest...)</span>
+                <span class="method-start">255304 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.CartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.CartTest.viewCart())</span>
+                <span class="method-start">255324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">viewCart</span>
+                <span class="method-start">256480 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=viewCart status=SUCCESS method=CartTest.viewCart()[pri:0, instance:ExitTest.Seleniu...)</span>
+                <span class="method-start">288020 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.CartTest.placeOrder())</span>
+                <span class="method-start">288043 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">placeOrder</span>
+                <span class="method-start">289966 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=placeOrder status=SUCCESS method=CartTest.placeOrder()[pri:1, instance:ExitTest.Sel...)</span>
+                <span class="method-start">325438 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.CartTest.removeFromCart())</span>
+                <span class="method-start">325453 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeFromCart</span>
+                <span class="method-start">327469 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=removeFromCart status=SUCCESS method=CartTest.removeFromCart()[pri:2, instance:Exit...)</span>
+                <span class="method-start">360706 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.AboutUsTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.AboutUsTest.aboutUs())</span>
+                <span class="method-start">360725 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">aboutUs</span>
+                <span class="method-start">362737 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=aboutUs status=SUCCESS method=AboutUsTest.aboutUs()[pri:0, instance:ExitTest.Seleni...)</span>
+                <span class="method-start">394860 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.DownloadAppTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.DownloadAppTest.appStoreDownload())</span>
+                <span class="method-start">394881 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">appStoreDownload</span>
+                <span class="method-start">396731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=appStoreDownload status=SUCCESS method=DownloadAppTest.appStoreDownload()[pri:0, in...)</span>
+                <span class="method-start">438469 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.DownloadAppTest.playStoreDownload())</span>
+                <span class="method-start">438490 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">playStoreDownload</span>
+                <span class="method-start">440713 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=playStoreDownload status=SUCCESS method=DownloadAppTest.playStoreDownload()[pri:1, ...)</span>
+                <span class="method-start">478061 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.CareersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.CareersTest.candidateLogin())</span>
+                <span class="method-start">478078 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">candidateLogin</span>
+                <span class="method-start">479493 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=candidateLogin status=FAILURE method=CareersTest.candidateLogin()[pri:0, instance:E...)</span>
+                <span class="method-start">548267 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.TopOffersTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">startTest(public void ExitTest.Selenium.TestCases.TopOffersTest.viewOffers())</span>
+                <span class="method-start">548708 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">viewOffers</span>
+                <span class="method-start">550907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">status([TestResult name=viewOffers status=FAILURE method=TopOffersTest.viewOffers()[pri:0, instance:ExitTes...)</span>
+                <span class="method-start">611867 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">ExitTest.Selenium.TestCases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">quitBrowser</span>
+                <span class="method-start">612232 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

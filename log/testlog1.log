@@ -1,0 +1,161 @@
+2023-01-10 02:56:06,176 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 02:56:06,276 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:56:51,880 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin started
+2023-01-10 02:56:51,907 [main] INFO ExitTest.Selenium.TestCases.LoginTest - Entering invalid email/phone
+2023-01-10 02:56:52,944 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin passed
+2023-01-10 02:56:53,133 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:56:55,067 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase becomeSeller started
+2023-01-10 02:56:55,301 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 02:57:15,715 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Start Selling'
+2023-01-10 02:57:24,467 [main] INFO ExitTest.Selenium.Pages.SellerPage - Registering for seller
+2023-01-10 02:57:25,986 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase becomeSeller passed
+2023-01-10 02:57:26,016 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:57:27,999 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase sellerLogin started
+2023-01-10 02:57:58,181 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 02:58:00,703 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on Login
+2023-01-10 02:58:06,453 [main] INFO ExitTest.Selenium.Pages.SellerPage - Entering mobile no.
+2023-01-10 02:58:07,475 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase sellerLogin passed
+2023-01-10 02:58:07,502 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:58:09,372 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase createAccount started
+2023-01-10 02:58:09,680 [main] INFO ExitTest.Selenium.Pages.CreateAccountPage - Creating new account
+2023-01-10 02:58:09,680 [main] INFO ExitTest.Selenium.Pages.CreateAccountPage - Clicking 'Create an account' button
+2023-01-10 02:58:10,078 [main] INFO ExitTest.Selenium.Pages.CreateAccountPage - Entering mobile no.
+2023-01-10 02:58:10,406 [main] INFO ExitTest.Selenium.Pages.CreateAccountPage - OTP sent for creating new account
+2023-01-10 02:58:11,555 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase createAccount passed
+2023-01-10 02:58:11,578 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:58:13,649 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase coinBalance started
+2023-01-10 02:58:44,047 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking flipkart plus button
+2023-01-10 02:58:44,183 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking on 'My Coin Balance'
+2023-01-10 02:58:46,953 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase coinBalance passed
+2023-01-10 02:58:46,975 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:58:48,577 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewRewards started
+2023-01-10 02:58:48,579 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking flipkart plus button
+2023-01-10 02:58:48,808 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking on 'My Reward Store'
+2023-01-10 02:58:51,367 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewRewards passed
+2023-01-10 02:58:51,396 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:58:53,056 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewClaimedRewards started
+2023-01-10 02:58:53,060 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking flipkart plus button
+2023-01-10 02:58:53,276 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking on 'My Reward Store'
+2023-01-10 02:58:54,650 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking on 'View Claimed Rewards'
+2023-01-10 02:58:58,337 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewClaimedRewards passed
+2023-01-10 02:58:58,356 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:58:59,378 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewExclusiveOffers started
+2023-01-10 02:58:59,380 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking flipkart plus button
+2023-01-10 02:58:59,504 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking on 'My Reward Store'
+2023-01-10 02:59:00,628 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicking on 'View All'
+2023-01-10 02:59:02,345 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewExclusiveOffers passed
+2023-01-10 02:59:02,370 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:59:03,411 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase searchItem started
+2023-01-10 02:59:33,457 [main] INFO ExitTest.Selenium.Pages.SearchPage - Searching for product
+2023-01-10 02:59:36,022 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase searchItem passed
+2023-01-10 02:59:36,038 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 02:59:37,948 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase buyProduct started
+2023-01-10 03:00:08,335 [main] INFO ExitTest.Selenium.Pages.BuyProductPage - Searching for product
+2023-01-10 03:00:15,096 [main] INFO ExitTest.Selenium.Pages.BuyProductPage - On checkout page
+2023-01-10 03:00:15,106 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase buyProduct passed
+2023-01-10 03:00:15,122 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:00:16,247 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase addToCart started
+2023-01-10 03:00:16,355 [main] INFO ExitTest.Selenium.Pages.BuyProductPage - Searching for product
+2023-01-10 03:00:18,947 [main] INFO ExitTest.Selenium.Pages.BuyProductPage - Add to cart button clicked
+2023-01-10 03:00:19,006 [main] INFO ExitTest.Selenium.Pages.BuyProductPage - Product added to cart
+2023-01-10 03:00:19,036 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase addToCart passed
+2023-01-10 03:00:19,057 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:00:20,212 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewCart started
+2023-01-10 03:00:50,470 [main] INFO ExitTest.Selenium.Pages.CartPage - Opening Cart
+2023-01-10 03:00:51,742 [main] INFO ExitTest.Selenium.Pages.CartPage - Cart page opened
+2023-01-10 03:00:51,752 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewCart passed
+2023-01-10 03:00:51,775 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:00:53,698 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase placeOrder started
+2023-01-10 03:01:24,046 [main] INFO ExitTest.Selenium.Pages.CartPage - Opening Cart
+2023-01-10 03:01:29,056 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicked on 'Place Order'
+2023-01-10 03:01:29,161 [main] INFO ExitTest.Selenium.Pages.CartPage - Order placed
+2023-01-10 03:01:29,171 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase placeOrder passed
+2023-01-10 03:01:29,186 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:01:31,199 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase removeFromCart started
+2023-01-10 03:02:01,664 [main] INFO ExitTest.Selenium.Pages.CartPage - Opening Cart
+2023-01-10 03:02:02,909 [main] INFO ExitTest.Selenium.Pages.CartPage - Cart page opened
+2023-01-10 03:02:03,098 [main] INFO ExitTest.Selenium.Pages.CartPage - Clicked on 'Remove'
+2023-01-10 03:02:04,394 [main] INFO ExitTest.Selenium.Pages.CartPage - Item removed from cart
+2023-01-10 03:02:04,438 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase removeFromCart passed
+2023-01-10 03:02:04,458 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:02:06,468 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase aboutUs started
+2023-01-10 03:02:36,778 [main] INFO ExitTest.Selenium.Pages.AboutUsPage - Scrolled to bottom of page
+2023-01-10 03:02:38,563 [main] INFO ExitTest.Selenium.Pages.AboutUsPage - Clicked on 'About Us'
+2023-01-10 03:02:38,585 [main] INFO ExitTest.Selenium.Pages.AboutUsPage - About Us page opened
+2023-01-10 03:02:38,592 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase aboutUs passed
+2023-01-10 03:02:38,616 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:02:40,462 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase appStoreDownload started
+2023-01-10 03:03:10,505 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 03:03:13,022 [main] INFO ExitTest.Selenium.Pages.SellerPage - Scrolled to bottom of page
+2023-01-10 03:03:22,177 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicked on App Store button
+2023-01-10 03:03:22,188 [main] INFO ExitTest.Selenium.Pages.SellerPage - Redirected to App Store
+2023-01-10 03:03:22,201 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase appStoreDownload passed
+2023-01-10 03:03:22,223 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:03:24,444 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase playStoreDownload started
+2023-01-10 03:03:54,774 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 03:03:58,100 [main] INFO ExitTest.Selenium.Pages.SellerPage - Scrolled to bottom of page
+2023-01-10 03:04:01,703 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicked on Google Play Button
+2023-01-10 03:04:01,778 [main] INFO ExitTest.Selenium.Pages.SellerPage - Redirected to Google Play Store
+2023-01-10 03:04:01,793 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase playStoreDownload passed
+2023-01-10 03:04:01,810 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:04:03,224 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase candidateLogin started
+2023-01-10 03:04:33,618 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicked on Careers button
+2023-01-10 03:04:41,120 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicked on 'Candidate Login'
+2023-01-10 03:04:41,385 [main] INFO ExitTest.Selenium.Pages.SellerPage - Entering Credentials
+2023-01-10 03:05:12,000 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase candidateLogin failed
+2023-01-10 03:05:12,440 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:05:14,638 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewOffers started
+2023-01-10 03:05:44,936 [main] INFO ExitTest.Selenium.Pages.TopOffersPage - Clicking on 'Top Offers'
+2023-01-10 03:06:15,599 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase viewOffers failed
+2023-01-10 03:06:15,966 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Quitting Browser
+2023-01-10 03:06:16,955 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Browser closed
+2023-01-10 03:07:51,147 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 03:07:51,256 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:08:19,989 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 03:08:20,089 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 03:08:21,754 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin started
+2023-01-10 03:08:21,806 [main] INFO ExitTest.Selenium.TestCases.LoginTest - Entering invalid email/phone
+2023-01-10 16:48:42,953 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 16:48:43,089 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 16:49:09,189 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin started
+2023-01-10 16:49:09,271 [main] INFO ExitTest.Selenium.TestCases.LoginTest - Entering invalid email/phone
+2023-01-10 16:49:10,345 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin passed
+2023-01-10 16:49:10,646 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 16:49:12,995 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase becomeSeller started
+2023-01-10 16:49:13,243 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 16:49:24,660 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Start Selling'
+2023-01-10 16:49:35,609 [main] INFO ExitTest.Selenium.Pages.SellerPage - Registering for seller
+2023-01-10 16:49:37,286 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase becomeSeller passed
+2023-01-10 16:49:37,318 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 16:49:40,199 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase sellerLogin started
+2023-01-10 16:50:10,317 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 17:01:25,652 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 17:01:25,783 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:01:51,912 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin started
+2023-01-10 17:01:51,940 [main] INFO ExitTest.Selenium.TestCases.LoginTest - Entering invalid email/phone
+2023-01-10 17:01:53,014 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin passed
+2023-01-10 17:01:53,197 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:01:55,507 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase becomeSeller started
+2023-01-10 17:01:55,792 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 17:22:45,236 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 17:22:45,378 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:23:12,166 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin started
+2023-01-10 17:23:12,205 [main] INFO ExitTest.Selenium.TestCases.LoginTest - Entering invalid email/phone
+2023-01-10 17:23:13,316 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin passed
+2023-01-10 17:23:13,489 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:23:15,407 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase becomeSeller started
+2023-01-10 17:23:15,755 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 17:24:57,237 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 17:24:57,335 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:25:43,313 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin started
+2023-01-10 17:25:43,394 [main] INFO ExitTest.Selenium.TestCases.LoginTest - Entering invalid email/phone
+2023-01-10 17:25:44,345 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin passed
+2023-01-10 17:25:44,829 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:25:46,326 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase becomeSeller started
+2023-01-10 17:25:46,491 [main] INFO ExitTest.Selenium.Pages.SellerPage - Clicking on 'Become a Seller'
+2023-01-10 17:32:43,834 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 17:32:43,946 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:34:14,405 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Chrome browser in non-headless mode
+2023-01-10 17:34:14,489 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Opening Flipkart.com
+2023-01-10 17:34:18,702 [main] INFO ExitTest.Selenium.Utils.BrowserFactory - Testcase invalidLogin started
+2023-01-10 17:34:18,766 [main] INFO ExitTest.Selenium.TestCases.LoginTest - Entering invalid email/phone

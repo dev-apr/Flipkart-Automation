@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="31" total="50" passed="17" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-10T02:56:03 IST" name="Exit Test" finished-at="2023-01-10T03:06:15 IST" duration-ms="612191">
+    <groups>
+    </groups>
+    <test started-at="2023-01-10T02:56:03 IST" name="Test" finished-at="2023-01-10T03:06:15 IST" duration-ms="612191">
+      <class name="ExitTest.Selenium.TestCases.SearchProductTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.SearchProductTest@ea9b7c6]" started-at="2023-01-10T02:59:02 IST" name="startTest" finished-at="2023-01-10T02:59:03 IST" duration-ms="1043" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.SearchProductTest.searchItem()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="searchItem()[pri:0, instance:ExitTest.Selenium.TestCases.SearchProductTest@ea9b7c6]" started-at="2023-01-10T02:59:03 IST" name="searchItem" finished-at="2023-01-10T02:59:36 IST" duration-ms="32609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchItem -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.SearchProductTest@ea9b7c6]" started-at="2023-01-10T02:59:36 IST" name="status" finished-at="2023-01-10T02:59:36 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItem status=SUCCESS method=SearchProductTest.searchItem()[pri:0, instance:ExitTest.Selenium.TestCases.SearchProductTest@ea9b7c6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.SearchProductTest -->
+      <class name="ExitTest.Selenium.TestCases.FlipkartPlusTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:11 IST" name="startTest" finished-at="2023-01-10T02:58:13 IST" duration-ms="2073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.FlipkartPlusTest.coinBalance()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="coinBalance()[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:13 IST" name="coinBalance" finished-at="2023-01-10T02:58:46 IST" duration-ms="33301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- coinBalance -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:46 IST" name="status" finished-at="2023-01-10T02:58:46 IST" duration-ms="22" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=coinBalance status=SUCCESS method=FlipkartPlusTest.coinBalance()[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:46 IST" name="startTest" finished-at="2023-01-10T02:58:48 IST" duration-ms="1603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.FlipkartPlusTest.viewRewards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="viewRewards()[pri:1, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:48 IST" name="viewRewards" finished-at="2023-01-10T02:58:51 IST" duration-ms="2788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewRewards -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:51 IST" name="status" finished-at="2023-01-10T02:58:51 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewRewards status=SUCCESS method=FlipkartPlusTest.viewRewards()[pri:1, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:51 IST" name="startTest" finished-at="2023-01-10T02:58:53 IST" duration-ms="1660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.FlipkartPlusTest.viewClaimedRewards()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="viewClaimedRewards()[pri:2, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:53 IST" name="viewClaimedRewards" finished-at="2023-01-10T02:58:58 IST" duration-ms="5278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewClaimedRewards -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:58 IST" name="status" finished-at="2023-01-10T02:58:58 IST" duration-ms="18" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewClaimedRewards status=SUCCESS method=FlipkartPlusTest.viewClaimedRewards()[pri:2, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:58 IST" name="startTest" finished-at="2023-01-10T02:58:59 IST" duration-ms="1023" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.FlipkartPlusTest.viewExclusiveOffers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="viewExclusiveOffers()[pri:3, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:58:59 IST" name="viewExclusiveOffers" finished-at="2023-01-10T02:59:02 IST" duration-ms="2964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewExclusiveOffers -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa]" started-at="2023-01-10T02:59:02 IST" name="status" finished-at="2023-01-10T02:59:02 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewExclusiveOffers status=SUCCESS method=FlipkartPlusTest.viewExclusiveOffers()[pri:3, instance:ExitTest.Selenium.TestCases.FlipkartPlusTest@4b672daa] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.FlipkartPlusTest -->
+      <class name="ExitTest.Selenium.TestCases.CreateAccountTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.CreateAccountTest@40c80397]" started-at="2023-01-10T02:58:07 IST" name="startTest" finished-at="2023-01-10T02:58:09 IST" duration-ms="1871" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.CreateAccountTest.createAccount()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="createAccount()[pri:0, instance:ExitTest.Selenium.TestCases.CreateAccountTest@40c80397]" started-at="2023-01-10T02:58:09 IST" name="createAccount" finished-at="2023-01-10T02:58:11 IST" duration-ms="2181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccount -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.CreateAccountTest@40c80397]" started-at="2023-01-10T02:58:11 IST" name="status" finished-at="2023-01-10T02:58:11 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=createAccount status=SUCCESS method=CreateAccountTest.createAccount()[pri:0, instance:ExitTest.Selenium.TestCases.CreateAccountTest@40c80397] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.CreateAccountTest -->
+      <class name="ExitTest.Selenium.TestCases.CareersTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.CareersTest@a8e6492]" started-at="2023-01-10T03:04:01 IST" name="startTest" finished-at="2023-01-10T03:04:03 IST" duration-ms="1415" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.CareersTest.candidateLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="candidateLogin()[pri:0, instance:ExitTest.Selenium.TestCases.CareersTest@a8e6492]" started-at="2023-01-10T03:04:03 IST" name="candidateLogin" finished-at="2023-01-10T03:05:11 IST" duration-ms="68770" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Sorry! Looks like you typed it wrong. Please try a')]' (tried for 30 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //span[contains(text(),'Sorry! Looks like you typed it wrong. Please try a')]' (tried for 30 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at ExitTest.Selenium.Pages.CareersPage.candidateLogin(CareersPage.java:78)
+at ExitTest.Selenium.TestCases.CareersTest.candidateLogin(CareersTest.java:22)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[contains(text(),'Sorry! Looks like you typed it wrong. Please try a')]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NJPN', ip: '192.168.101.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5fcee86f3a852a4a51b870eec9047de8, findElement {using=xpath, value=//span[contains(text(),'Sorry! Looks like you typed it wrong. Please try a')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DEVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62143/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcee86f3a852a4a51b870eec9047de8
+at jdk.internal.reflect.GeneratedConstructorAccessor22.newInstance(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:365)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:357)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
+at com.sun.proxy.$Proxy20.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:307)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:40)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:293)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:290)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+... 30 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- candidateLogin -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.CareersTest@a8e6492]" started-at="2023-01-10T03:05:11 IST" name="status" finished-at="2023-01-10T03:05:12 IST" duration-ms="439" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=candidateLogin status=FAILURE method=CareersTest.candidateLogin()[pri:0, instance:ExitTest.Selenium.TestCases.CareersTest@a8e6492] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.CareersTest -->
+      <class name="ExitTest.Selenium.TestCases.LoginTest">
+        <test-method is-config="true" signature="initializeDriver()[pri:0, instance:ExitTest.Selenium.TestCases.LoginTest@1fcb4808]" started-at="2023-01-10T02:56:03 IST" name="initializeDriver" finished-at="2023-01-10T02:56:03 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:ExitTest.Selenium.TestCases.LoginTest@1fcb4808]" started-at="2023-01-10T02:56:03 IST" name="openBrowser" finished-at="2023-01-10T02:56:06 IST" duration-ms="2518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.LoginTest@1fcb4808]" started-at="2023-01-10T02:56:06 IST" name="startTest" finished-at="2023-01-10T02:56:51 IST" duration-ms="45607" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.LoginTest.invalidLogin() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="invalidLogin()[pri:1, instance:ExitTest.Selenium.TestCases.LoginTest@1fcb4808]" started-at="2023-01-10T02:56:51 IST" name="invalidLogin" finished-at="2023-01-10T02:56:52 IST" duration-ms="1058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLogin -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.LoginTest@1fcb4808]" started-at="2023-01-10T02:56:52 IST" name="status" finished-at="2023-01-10T02:56:53 IST" duration-ms="186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=invalidLogin status=SUCCESS method=LoginTest.invalidLogin()[pri:1, instance:ExitTest.Selenium.TestCases.LoginTest@1fcb4808] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="quitBrowser()[pri:0, instance:ExitTest.Selenium.TestCases.LoginTest@1fcb4808]" started-at="2023-01-10T03:06:15 IST" name="quitBrowser" finished-at="2023-01-10T03:06:16 IST" duration-ms="992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+      </class> <!-- ExitTest.Selenium.TestCases.LoginTest -->
+      <class name="ExitTest.Selenium.TestCases.BuyProductTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866]" started-at="2023-01-10T02:59:36 IST" name="startTest" finished-at="2023-01-10T02:59:37 IST" duration-ms="1915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.BuyProductTest.buyProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="buyProduct()[pri:0, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866]" started-at="2023-01-10T02:59:37 IST" name="buyProduct" finished-at="2023-01-10T03:00:15 IST" duration-ms="37152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProduct -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866]" started-at="2023-01-10T03:00:15 IST" name="status" finished-at="2023-01-10T03:00:15 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=buyProduct status=SUCCESS method=BuyProductTest.buyProduct()[pri:0, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866]" started-at="2023-01-10T03:00:15 IST" name="startTest" finished-at="2023-01-10T03:00:16 IST" duration-ms="1125" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.BuyProductTest.addToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="addToCart()[pri:1, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866]" started-at="2023-01-10T03:00:16 IST" name="addToCart" finished-at="2023-01-10T03:00:19 IST" duration-ms="2787" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866]" started-at="2023-01-10T03:00:19 IST" name="status" finished-at="2023-01-10T03:00:19 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addToCart status=SUCCESS method=BuyProductTest.addToCart()[pri:1, instance:ExitTest.Selenium.TestCases.BuyProductTest@e077866] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.BuyProductTest -->
+      <class name="ExitTest.Selenium.TestCases.TopOffersTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.TopOffersTest@1c7fd41f]" started-at="2023-01-10T03:05:12 IST" name="startTest" finished-at="2023-01-10T03:05:14 IST" duration-ms="2199" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.TopOffersTest.viewOffers()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="viewOffers()[pri:0, instance:ExitTest.Selenium.TestCases.TopOffersTest@1c7fd41f]" started-at="2023-01-10T03:05:14 IST" name="viewOffers" finished-at="2023-01-10T03:06:15 IST" duration-ms="60958" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for title to contain "Content". Current title: "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!" (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NJPN', ip: '192.168.101.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DEVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62143/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcee86f3a852a4a51b870eec9047de8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for title to contain "Content". Current title: "Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!" (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'IN-PG02NJPN', ip: '192.168.101.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.5'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\Users\DEVEND~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:62143}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62143/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5fcee86f3a852a4a51b870eec9047de8
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+at ExitTest.Selenium.Pages.TopOffersPage.viewOffers(TopOffersPage.java:52)
+at ExitTest.Selenium.TestCases.TopOffersTest.viewOffers(TopOffersTest.java:19)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewOffers -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.TopOffersTest@1c7fd41f]" started-at="2023-01-10T03:06:15 IST" name="status" finished-at="2023-01-10T03:06:15 IST" duration-ms="330" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewOffers status=FAILURE method=TopOffersTest.viewOffers()[pri:0, instance:ExitTest.Selenium.TestCases.TopOffersTest@1c7fd41f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.TopOffersTest -->
+      <class name="ExitTest.Selenium.TestCases.SellerTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805]" started-at="2023-01-10T02:56:53 IST" name="startTest" finished-at="2023-01-10T02:56:55 IST" duration-ms="1935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.SellerTest.becomeSeller()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="becomeSeller()[pri:0, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805]" started-at="2023-01-10T02:56:55 IST" name="becomeSeller" finished-at="2023-01-10T02:57:25 IST" duration-ms="30917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- becomeSeller -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805]" started-at="2023-01-10T02:57:25 IST" name="status" finished-at="2023-01-10T02:57:26 IST" duration-ms="30" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=becomeSeller status=SUCCESS method=SellerTest.becomeSeller()[pri:0, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805]" started-at="2023-01-10T02:57:26 IST" name="startTest" finished-at="2023-01-10T02:57:28 IST" duration-ms="1985" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.SellerTest.sellerLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="sellerLogin()[pri:1, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805]" started-at="2023-01-10T02:57:28 IST" name="sellerLogin" finished-at="2023-01-10T02:58:07 IST" duration-ms="39473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sellerLogin -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805]" started-at="2023-01-10T02:58:07 IST" name="status" finished-at="2023-01-10T02:58:07 IST" duration-ms="26" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sellerLogin status=SUCCESS method=SellerTest.sellerLogin()[pri:1, instance:ExitTest.Selenium.TestCases.SellerTest@726e5805] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.SellerTest -->
+      <class name="ExitTest.Selenium.TestCases.AboutUsTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.AboutUsTest@7c2b6087]" started-at="2023-01-10T03:02:04 IST" name="startTest" finished-at="2023-01-10T03:02:06 IST" duration-ms="2011" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.AboutUsTest.aboutUs()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="aboutUs()[pri:0, instance:ExitTest.Selenium.TestCases.AboutUsTest@7c2b6087]" started-at="2023-01-10T03:02:06 IST" name="aboutUs" finished-at="2023-01-10T03:02:38 IST" duration-ms="32123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aboutUs -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.AboutUsTest@7c2b6087]" started-at="2023-01-10T03:02:38 IST" name="status" finished-at="2023-01-10T03:02:38 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=aboutUs status=SUCCESS method=AboutUsTest.aboutUs()[pri:0, instance:ExitTest.Selenium.TestCases.AboutUsTest@7c2b6087] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.AboutUsTest -->
+      <class name="ExitTest.Selenium.TestCases.DownloadAppTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43]" started-at="2023-01-10T03:02:38 IST" name="startTest" finished-at="2023-01-10T03:02:40 IST" duration-ms="1849" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.DownloadAppTest.appStoreDownload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="appStoreDownload()[pri:0, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43]" started-at="2023-01-10T03:02:40 IST" name="appStoreDownload" finished-at="2023-01-10T03:03:22 IST" duration-ms="41737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appStoreDownload -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43]" started-at="2023-01-10T03:03:22 IST" name="status" finished-at="2023-01-10T03:03:22 IST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=appStoreDownload status=SUCCESS method=DownloadAppTest.appStoreDownload()[pri:0, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43]" started-at="2023-01-10T03:03:22 IST" name="startTest" finished-at="2023-01-10T03:03:24 IST" duration-ms="2223" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.DownloadAppTest.playStoreDownload()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="playStoreDownload()[pri:1, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43]" started-at="2023-01-10T03:03:24 IST" name="playStoreDownload" finished-at="2023-01-10T03:04:01 IST" duration-ms="37347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playStoreDownload -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43]" started-at="2023-01-10T03:04:01 IST" name="status" finished-at="2023-01-10T03:04:01 IST" duration-ms="16" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=playStoreDownload status=SUCCESS method=DownloadAppTest.playStoreDownload()[pri:1, instance:ExitTest.Selenium.TestCases.DownloadAppTest@3fffff43] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.DownloadAppTest -->
+      <class name="ExitTest.Selenium.TestCases.CartTest">
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:00:19 IST" name="startTest" finished-at="2023-01-10T03:00:20 IST" duration-ms="1156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.CartTest.viewCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="viewCart()[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:00:20 IST" name="viewCart" finished-at="2023-01-10T03:00:51 IST" duration-ms="31539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewCart -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:00:51 IST" name="status" finished-at="2023-01-10T03:00:51 IST" duration-ms="23" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=viewCart status=SUCCESS method=CartTest.viewCart()[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:00:51 IST" name="startTest" finished-at="2023-01-10T03:00:53 IST" duration-ms="1923" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.CartTest.placeOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="placeOrder()[pri:1, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:00:53 IST" name="placeOrder" finished-at="2023-01-10T03:01:29 IST" duration-ms="35472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:01:29 IST" name="status" finished-at="2023-01-10T03:01:29 IST" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=placeOrder status=SUCCESS method=CartTest.placeOrder()[pri:1, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+        <test-method is-config="true" signature="startTest(java.lang.reflect.Method)[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:01:29 IST" name="startTest" finished-at="2023-01-10T03:01:31 IST" duration-ms="2016" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExitTest.Selenium.TestCases.CartTest.removeFromCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method signature="removeFromCart()[pri:2, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:01:31 IST" name="removeFromCart" finished-at="2023-01-10T03:02:04 IST" duration-ms="33237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeFromCart -->
+        <test-method is-config="true" signature="status(org.testng.ITestResult)[pri:0, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a]" started-at="2023-01-10T03:02:04 IST" name="status" finished-at="2023-01-10T03:02:04 IST" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeFromCart status=SUCCESS method=CartTest.removeFromCart()[pri:2, instance:ExitTest.Selenium.TestCases.CartTest@ed3068a] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- status -->
+      </class> <!-- ExitTest.Selenium.TestCases.CartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Exit Test -->
+</testng-results>

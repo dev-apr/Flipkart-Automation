@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Exit Test">
+
+	<!-- Listener to enable/disable test case from using excel file -->
+	<listeners>
+			
+		<listener class-name = "ExitTest.Selenium.Utils.MyListener"></listener>
+			
+	</listeners>
+
+	<test thread-count="5" name="Test">
+	
+		<classes>
+			
+			<class name = "ExitTest.Selenium.TestCases.LoginTest"/>
+			<class name = "ExitTest.Selenium.TestCases.SellerTest"/>
+			<class name = "ExitTest.Selenium.TestCases.CreateAccountTest"/>
+			<class name = "ExitTest.Selenium.TestCases.FlipkartPlusTest"/>
+			<class name = "ExitTest.Selenium.TestCases.SearchProductTest"/>
+			<class name = "ExitTest.Selenium.TestCases.BuyProductTest"/>
+			<class name = "ExitTest.Selenium.TestCases.CartTest"/>
+			<class name = "ExitTest.Selenium.TestCases.AboutUsTest"/>
+			<class name = "ExitTest.Selenium.TestCases.DownloadAppTest"/>
+			<class name = "ExitTest.Selenium.TestCases.CareersTest"/>
+			<class name = "ExitTest.Selenium.TestCases.TopOffersTest"/>
+
+		</classes>
+		
+	</test>
+		
+</suite>
